@@ -3,26 +3,26 @@
 <suite name="Suite">
 
     <listeners>
-        <listener class-name = "test.Listeners"/>
+        <listener class-name = "testNGfiles.Listeners"/>
     </listeners>
 
     <test thread-count="5" name="Test">
         <classes>
-            <class name="test.BasicTestNg"/>
-            <class name="test.BasicTestNg1"/>
+            <class name="testNGfiles.TestNGdependantMethod"/>
+            <class name="testNGfiles.BasicTestNG"/>
         </classes>
     </test>
 
     <test thread-count="2"  name = "Basic2">
         <classes>
-            <class name ="test.BasicTestNg2">
+            <class name ="testNGfiles.BasicTestNG">
                 <methods>
-                    <include name = "demo4"/>
-                    <exclude name = "demo4"/>
+                    <include name = "testTrue"/>
+                    <exclude name = "testFalse"/>
                 </methods>
             </class>
 
-            <class name ="test.BasicTestNg3">
+            <class name ="testNGfiles.BasicTestNG">
                 <methods>
                     <exclude name = "basic.*"/>
                 </methods>

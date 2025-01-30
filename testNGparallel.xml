@@ -3,14 +3,13 @@
 <suite name="Suite" parallel = "methods" thread-count="10">
 
     <listeners>
-        <listener class-name = "test.Listeners"/>
+        <listener class-name = "testNGfiles.Listeners"/>
     </listeners>
 
     <test  name="Test">
         <classes>
-            <class name = "test.BasicTestNg"/>
-            <class name = "test.BasicTestNg1"/>
-            <class name = "test.BasicTestNg2"/>
+            <class name = "testNGfiles.TestNGdependantMethod"/>
+            <class name = "testNGfiles.BasicTestNG"/>
         </classes>
     </test>
 

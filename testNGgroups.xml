@@ -10,10 +10,8 @@
         </groups>
 
         <classes>
-            <class name = "test.BasicTestNg" />
-            <class name = "test.BasicTestNg1" />
-            <class name = "test.BasicTestNg2"/>
-            <class name = "test.BasicTestNgDependMethod"/>
+            <class name = "testNGfiles.BasicTestNG" />
+            <class name = "testNGfiles.TestNGdependantMethod"/>
         </classes>
 
     </test>
