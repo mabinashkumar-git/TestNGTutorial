@@ -1,4 +1,4 @@
-package testNGFiles;
+package testNGFilesSrc;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;

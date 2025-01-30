@@ -5,13 +5,13 @@
         <parameter name = "URL" value = "google.com"/>
         <groups>
             <run>
-                <include name = "GroupTest"/>
+                <include name = "FirstTest"/>
+                <include name = "LastTest"/>
             </run>
         </groups>
 
         <classes>
-            <class name = "testNGfiles.BasicTestNG" />
-            <class name = "testNGfiles.TestNGdependantMethod"/>
+            <class name = "testNGfiles.Groups" />
         </classes>
 
     </test>

@@ -3,7 +3,7 @@
 <suite name="Suite">
     <test thread-count="5" name="Test">
         <packages>
-            <package name = "test"/>
+            <package name = "testNGfiles"/>
         </packages>
     </test>
 </suite>

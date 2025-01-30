@@ -52,10 +52,9 @@ public class Annotations {
         System.out.println("After Method");
     }
 
-
     /* Annotation to skip or execute */
     @Test(enabled=false)
-    public void basicTesto() {
+    public void basicTest() {
         System.out.println("Basic Test");
     }
 

@@ -36,21 +36,4 @@ public class TestNGdependantMethod {
         System.out.println("Print Test 3");
     }
 
-    @Test(dataProvider = "dataProviderTest")
-    public void test6(String var1, String var2){
-        System.out.println(var1);
-        System.out.println(var2);
-    }
-
-    @DataProvider
-    public Object[][] dataProviderTest(){
-        Object data[][] = new Object[2][2];
-        data[0][0] = "value00";
-        data[0][1] = "value01";
-        data[1][0] = "value10";
-        data[1][1] = "value11";
-
-        return data;
-    }
-
 }
