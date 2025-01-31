@@ -33,7 +33,7 @@ public class TestNGdependantMethod {
     /* Will throw an error as this is trying to call another TestNG dependsOnMethods */
     @Test(dependsOnMethods = {"test"})
     public void test5(){
-        System.out.println("Print Test 3");
+        System.out.println("Print Test 6");
     }
 
 }

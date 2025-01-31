@@ -10,7 +10,7 @@ public class InvocationCount {
         System.out.println("Test 1");
     }
 
-    @Test(invocationCount = 1)
+    @Test(invocationCount = 3)
     public void test2(){
         System.out.println("Test 2");
     }
